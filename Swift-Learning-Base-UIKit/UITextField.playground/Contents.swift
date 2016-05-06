@@ -23,4 +23,19 @@ textField.contentVerticalAlignment = .Top;
 textField.borderStyle = .None;
 textField.background = UIImage(named: "icon");
 
+//清除按钮
+textField.clearButtonMode = .WhileEditing;
+
+//设置文本框关联的键盘类型
+textField.keyboardType = .NumberPad;
+
+//使文本框获取焦点
+textField.becomeFirstResponder();
+
+//失去焦点 
+textField.resignFirstResponder();
+
+//设置键盘的return样式
+textField.returnKeyType = .Done;
+
 
