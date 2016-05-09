@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--UIPickerView-->
@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wgv-sh-dWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="-862"/>
+            <point key="canvasLocation" x="765" y="-914"/>
         </scene>
         <!--UIActionSheet-->
         <scene sceneID="1o1-4H-lNQ">
@@ -39,9 +39,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J6d-oU-LFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="292" y="-520"/>
+            <point key="canvasLocation" x="765" y="-733"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Base UIKit Use-->
         <scene sceneID="Kkw-gt-hZX">
             <objects>
                 <tableViewController id="SsH-hq-q7M" customClass="ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -54,16 +54,101 @@
                             <outlet property="delegate" destination="SsH-hq-q7M" id="iJe-Fu-A5X"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="3mh-jJ-83Q"/>
+                    <navigationItem key="navigationItem" title="Base UIKit Use" id="3mh-jJ-83Q"/>
                     <connections>
                         <segue destination="uBl-Gt-EBg" kind="show" identifier="UIAlertView" id="y0H-GH-8ep"/>
                         <segue destination="oxe-UO-qdR" kind="show" identifier="UIActionSheet" id="kaB-hs-IQR"/>
                         <segue destination="oWx-uB-xcM" kind="show" identifier="UIPickerView" id="IcV-Vg-jXy"/>
+                        <segue destination="Yk6-Jx-GC0" kind="show" identifier="UIStepper" id="tMN-BK-WTj"/>
+                        <segue destination="uHj-L8-Yn3" kind="show" identifier="UIScrollView" id="oWr-y7-Syh"/>
+                        <segue destination="dEA-vD-vio" kind="show" identifier="UIScrollViewPage" id="ihN-B7-Gqc"/>
+                        <segue destination="hq8-7a-E0O" kind="show" identifier="CoreMotion" id="VfJ-wF-ahV"/>
+                        <segue destination="zE9-ZR-8Hv" kind="show" identifier="UIGestureRecognizer" id="lAa-xs-Fxh"/>
+                        <segue destination="6Tr-mD-tBb" kind="show" identifier="UIDatePicker" id="Ixe-lX-frJ"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNA-6o-4Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-85" y="-78"/>
+        </scene>
+        <!--Core Motion View Controller-->
+        <scene sceneID="zG7-M5-LwR">
+            <objects>
+                <viewController id="hq8-7a-E0O" customClass="CoreMotion_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BkQ-GV-Zyg"/>
+                        <viewControllerLayoutGuide type="bottom" id="TYU-01-YeL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mu1-bt-hOU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ID-Kc-foR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="-293"/>
+        </scene>
+        <!--Date Picker View Controller-->
+        <scene sceneID="Xmi-jg-cmd">
+            <objects>
+                <viewController id="6Tr-mD-tBb" customClass="UIDatePicker_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dQC-qd-vYT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ahj-A8-bqZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V5o-J5-OyK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GmF-tZ-cw6">
+                                <rect key="frame" x="281" y="385" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="showDatePicker:" destination="6Tr-mD-tBb" eventType="touchUpInside" id="NJO-yf-Ihq"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="lDP-ie-Uej">
+                                <rect key="frame" x="0.0" y="64" width="600" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="484472403.28580499">
+                                    <!--2016-05-09 07:40:03 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GmF-tZ-cw6" firstAttribute="centerY" secondItem="V5o-J5-OyK" secondAttribute="centerY" constant="100" id="CkI-47-aIj"/>
+                            <constraint firstItem="lDP-ie-Uej" firstAttribute="width" secondItem="V5o-J5-OyK" secondAttribute="width" id="GL0-SN-oQb"/>
+                            <constraint firstItem="GmF-tZ-cw6" firstAttribute="centerX" secondItem="V5o-J5-OyK" secondAttribute="centerX" id="Hku-9n-3q9"/>
+                            <constraint firstItem="lDP-ie-Uej" firstAttribute="centerX" secondItem="V5o-J5-OyK" secondAttribute="centerX" id="XnZ-kJ-rKj"/>
+                            <constraint firstItem="lDP-ie-Uej" firstAttribute="top" secondItem="dQC-qd-vYT" secondAttribute="bottom" id="rtA-sk-s5T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataPicker" destination="lDP-ie-Uej" id="AFS-Ht-XvX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="odM-t2-ah8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709" y="445"/>
+        </scene>
+        <!--Gesture Recognizer View Controller-->
+        <scene sceneID="dtV-o1-I67">
+            <objects>
+                <viewController id="zE9-ZR-8Hv" customClass="UIGestureRecognizer_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A0c-CF-5qu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zf9-8B-Ksm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EX5-oH-Uuw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BB3-Kj-TvQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="340"/>
         </scene>
         <!--Alert View View Controller-->
         <scene sceneID="ZiB-Ct-DD8">
@@ -81,7 +166,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fsU-5o-Uec" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-117" y="893"/>
+            <point key="canvasLocation" x="765" y="-539"/>
+        </scene>
+        <!--Scroll View Page View Controller-->
+        <scene sceneID="qb5-w0-e3W">
+            <objects>
+                <viewController id="dEA-vD-vio" customClass="UIScrollViewPage_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ObT-VX-12a"/>
+                        <viewControllerLayoutGuide type="bottom" id="9BT-iX-VS8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Xn-Wy-6Nq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5L3-RS-7d3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="-87"/>
+        </scene>
+        <!--Scroll View View Controller-->
+        <scene sceneID="pnS-Nk-ZDH">
+            <objects>
+                <viewController id="uHj-L8-Yn3" customClass="UIScrollView_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XgX-xo-wZX"/>
+                        <viewControllerLayoutGuide type="bottom" id="VvI-5j-Cfs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m0h-xE-geX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdH-3h-jrx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="53"/>
+        </scene>
+        <!--Stepper View Controller-->
+        <scene sceneID="ydV-Xk-R11">
+            <objects>
+                <viewController id="Yk6-Jx-GC0" customClass="UIStepper_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Kk-Lq-Xg9"/>
+                        <viewControllerLayoutGuide type="bottom" id="oDQ-QZ-grC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fli-xP-Slk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="liH-Jx-vGl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="-183"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2Kw-ZK-kHa">

@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController {
 
-    var data:[String] = ["UIAlertView","UIActionSheet","UIPickerView"];
+    var data:[String] = ["UIAlertView","UIActionSheet","UIPickerView","UIStepper","UIScrollView","UIScrollViewPage","CoreMotion","UIGestureRecognizer","UIDatePicker"];
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

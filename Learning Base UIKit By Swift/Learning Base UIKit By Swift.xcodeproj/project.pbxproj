@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */; };
+		C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */; };
+		C536C0DD1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DC1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift */; };
+		C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DE1CE0428E002AFE83 /* CoreMotion-ViewController.swift */; };
+		C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */; };
+		C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */; };
 		CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */; };
 		CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCBA1CDDBD05004E549E /* ViewController.swift */; };
 		CCC9BCBE1CDDBD05004E549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BCBC1CDDBD05004E549E /* Main.storyboard */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper-ViewController.swift"; sourceTree = "<group>"; };
+		C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView-ViewController.swift"; sourceTree = "<group>"; };
+		C536C0DC1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollViewPage-ViewController.swift"; sourceTree = "<group>"; };
+		C536C0DE1CE0428E002AFE83 /* CoreMotion-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreMotion-ViewController.swift"; sourceTree = "<group>"; };
+		C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer-ViewController.swift"; sourceTree = "<group>"; };
+		C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDatePicker-ViewController.swift"; sourceTree = "<group>"; };
 		CCC9BCB51CDDBD05004E549E /* Learning Base UIKit By Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Base UIKit By Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC9BCBA1CDDBD05004E549E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +81,12 @@
 				CCC9BCCA1CDDBE30004E549E /* UIAlertView-ViewController.swift */,
 				CCC9BCD01CDDC692004E549E /* UIActionSheet-ViewController.swift */,
 				CCC9BCD21CDDC7CD004E549E /* UIPickerView-ViewController.swift */,
+				C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */,
+				C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */,
+				C536C0DC1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift */,
+				C536C0DE1CE0428E002AFE83 /* CoreMotion-ViewController.swift */,
+				C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */,
+				C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -105,6 +123,7 @@
 				TargetAttributes = {
 					CCC9BCB41CDDBD05004E549E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75NY53J2SN;
 					};
 				};
 			};
@@ -144,10 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */,
 				CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */,
+				C536C0DD1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift in Sources */,
+				C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */,
 				CCC9BCCB1CDDBE30004E549E /* UIAlertView-ViewController.swift in Sources */,
 				CCC9BCD11CDDC692004E549E /* UIActionSheet-ViewController.swift in Sources */,
+				C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */,
 				CCC9BCD31CDDC7CD004E549E /* UIPickerView-ViewController.swift in Sources */,
+				C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */,
+				C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */,
 				CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -261,11 +286,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Learning Base UIKit By Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenmestudio.Learning-Base-UIKit-By-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -273,11 +302,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Learning Base UIKit By Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shenmestudio.Learning-Base-UIKit-By-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -300,6 +333,7 @@
 				CCC9BCC91CDDBD05004E549E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

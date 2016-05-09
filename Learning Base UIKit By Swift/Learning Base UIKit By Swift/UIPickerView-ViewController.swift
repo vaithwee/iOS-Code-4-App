@@ -26,7 +26,7 @@ class UIPickerView_ViewController: UIViewController, UIPickerViewDelegate, UIPic
         button.center = self.view.center;
         button.backgroundColor = UIColor.blueColor();
         button.setTitle("获取信息", forState: .Normal);
-        button.addTarget(self, action: #selector(UIPickerView_ViewController.getPickerViewValue), forControlEvents: .TouchUpInside);
+        button.addTarget(self, action:Selector("getPickerViewValue"), forControlEvents: .TouchUpInside);
         self.view.addSubview(button);
         // Do any additional setup after loading the view.
     }
