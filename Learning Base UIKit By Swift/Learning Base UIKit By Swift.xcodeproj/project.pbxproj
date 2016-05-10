@@ -14,6 +14,9 @@
 		C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */; };
 		C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */; };
 		C536C0E51CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0E41CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift */; };
+		C549D25E1CE1BB3800BC7A5E /* UIWebView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D25D1CE1BB3800BC7A5E /* UIWebView-ViewController.swift */; };
+		C549D2601CE1C08400BC7A5E /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C549D25F1CE1C08400BC7A5E /* test.pdf */; };
+		C549D2621CE1C2EF00BC7A5E /* Browser-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C549D2611CE1C2EF00BC7A5E /* Browser-ViewController.swift */; };
 		CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */; };
 		CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCBA1CDDBD05004E549E /* ViewController.swift */; };
 		CCC9BCBE1CDDBD05004E549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BCBC1CDDBD05004E549E /* Main.storyboard */; };
@@ -32,6 +35,9 @@
 		C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIGestureRecognizer-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDatePicker-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0E41CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDatePickerCountDown-ViewController.swift"; sourceTree = "<group>"; };
+		C549D25D1CE1BB3800BC7A5E /* UIWebView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIWebView-ViewController.swift"; sourceTree = "<group>"; };
+		C549D25F1CE1C08400BC7A5E /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
+		C549D2611CE1C2EF00BC7A5E /* Browser-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Browser-ViewController.swift"; sourceTree = "<group>"; };
 		CCC9BCB51CDDBD05004E549E /* Learning Base UIKit By Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Base UIKit By Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC9BCBA1CDDBD05004E549E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +96,9 @@
 				C536C0E01CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift */,
 				C536C0E21CE07596002AFE83 /* UIDatePicker-ViewController.swift */,
 				C536C0E41CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift */,
+				C549D25D1CE1BB3800BC7A5E /* UIWebView-ViewController.swift */,
+				C549D25F1CE1C08400BC7A5E /* test.pdf */,
+				C549D2611CE1C2EF00BC7A5E /* Browser-ViewController.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -153,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C549D2601CE1C08400BC7A5E /* test.pdf in Resources */,
 				CCC9BCC31CDDBD05004E549E /* LaunchScreen.storyboard in Resources */,
 				CCC9BCC01CDDBD05004E549E /* Assets.xcassets in Resources */,
 				CCC9BCBE1CDDBD05004E549E /* Main.storyboard in Resources */,
@@ -166,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C549D25E1CE1BB3800BC7A5E /* UIWebView-ViewController.swift in Sources */,
 				C536C0E51CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift in Sources */,
 				C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */,
 				CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */,
@@ -178,6 +189,7 @@
 				C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */,
 				C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */,
 				CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */,
+				C549D2621CE1C2EF00BC7A5E /* Browser-ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

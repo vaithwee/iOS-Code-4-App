@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--UIPickerView-->
@@ -66,11 +67,13 @@
                         <segue destination="zE9-ZR-8Hv" kind="show" identifier="UIGestureRecognizer" id="lAa-xs-Fxh"/>
                         <segue destination="6Tr-mD-tBb" kind="show" identifier="UIDatePicker" id="Ixe-lX-frJ"/>
                         <segue destination="VOk-BI-9y0" kind="show" identifier="UIDatePickerCountDown" id="6lE-DU-E6I"/>
+                        <segue destination="K3c-4K-gyY" kind="show" identifier="UIWebView" id="40U-HA-2SY"/>
+                        <segue destination="3tG-5g-Ndr" kind="show" identifier="Browser" id="tPz-8W-lud"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNA-6o-4Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-85" y="-78"/>
+            <point key="canvasLocation" x="47" y="-135"/>
         </scene>
         <!--Core Motion View Controller-->
         <scene sceneID="zG7-M5-LwR">
@@ -150,6 +153,147 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="odM-t2-ah8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="445"/>
+        </scene>
+        <!--Browser View Controller-->
+        <scene sceneID="ehg-ef-c5u">
+            <objects>
+                <viewController id="3tG-5g-Ndr" customClass="Browser_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IgJ-X6-lEQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="y5e-Be-Uja"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cZA-08-qZv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="0C9-f6-OI0">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XZk-z4-qhd"/>
+                                    <barButtonItem title="Back" style="plain" id="7jY-jJ-0so">
+                                        <connections>
+                                            <action selector="back:" destination="3tG-5g-Ndr" id="Ilm-ir-jBY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Qa7-v4-vfi"/>
+                                    <barButtonItem title="Forward" style="plain" id="mLM-24-wUd">
+                                        <connections>
+                                            <action selector="forward:" destination="3tG-5g-Ndr" id="b5E-ts-f4M"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="jHa-TW-mYD"/>
+                                    <barButtonItem style="plain" systemItem="refresh" id="dSw-Bh-4GA">
+                                        <connections>
+                                            <action selector="refresh:" destination="3tG-5g-Ndr" id="7kG-Sy-gX1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lK4-yn-e8p"/>
+                                    <barButtonItem style="plain" systemItem="cancel" id="UHc-aM-d7H">
+                                        <connections>
+                                            <action selector="cancel:" destination="3tG-5g-Ndr" id="NeU-Ze-NTx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3pd-1p-zEK"/>
+                                </items>
+                            </toolbar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URk-7b-jDP">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="search" id="Nqn-7Y-BUg"/>
+                                    <barButtonItem style="plain" id="JBw-Ap-HLF">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="5gU-k9-frH">
+                                            <rect key="frame" x="48" y="7" width="250" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbj-cw-g8f">
+                                <rect key="frame" x="0.0" y="108" width="600" height="448"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IJa-g7-Ng7">
+                                <rect key="frame" x="0.0" y="108" width="600" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="URk-7b-jDP" firstAttribute="top" secondItem="IgJ-X6-lEQ" secondAttribute="bottom" id="1Jr-rG-Ne5"/>
+                            <constraint firstItem="fbj-cw-g8f" firstAttribute="bottom" secondItem="0C9-f6-OI0" secondAttribute="top" id="Cl9-WD-Nfr"/>
+                            <constraint firstItem="IJa-g7-Ng7" firstAttribute="leading" secondItem="cZA-08-qZv" secondAttribute="leadingMargin" constant="-20" id="IbE-rn-B41"/>
+                            <constraint firstItem="fbj-cw-g8f" firstAttribute="centerX" secondItem="cZA-08-qZv" secondAttribute="centerX" id="Iil-La-Gq4"/>
+                            <constraint firstItem="fbj-cw-g8f" firstAttribute="width" secondItem="cZA-08-qZv" secondAttribute="width" id="JXS-SO-fz8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0C9-f6-OI0" secondAttribute="trailing" constant="-20" id="P5u-Ao-Udk"/>
+                            <constraint firstItem="y5e-Be-Uja" firstAttribute="top" secondItem="0C9-f6-OI0" secondAttribute="bottom" id="Pzq-eV-3Bx"/>
+                            <constraint firstItem="fbj-cw-g8f" firstAttribute="top" secondItem="URk-7b-jDP" secondAttribute="bottom" id="WXF-km-qEb"/>
+                            <constraint firstItem="0C9-f6-OI0" firstAttribute="leading" secondItem="cZA-08-qZv" secondAttribute="leadingMargin" constant="-20" id="hW0-gG-q1g"/>
+                            <constraint firstAttribute="trailing" secondItem="IJa-g7-Ng7" secondAttribute="trailing" id="lvB-WX-OFU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="URk-7b-jDP" secondAttribute="trailing" constant="-20" id="mBJ-Le-Pll"/>
+                            <constraint firstItem="IJa-g7-Ng7" firstAttribute="top" secondItem="URk-7b-jDP" secondAttribute="bottom" id="vOV-89-VGJ"/>
+                            <constraint firstItem="URk-7b-jDP" firstAttribute="leading" secondItem="cZA-08-qZv" secondAttribute="leadingMargin" constant="-20" id="xh4-Y0-yed"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="goBtn" destination="Nqn-7Y-BUg" id="kEI-RJ-4R8"/>
+                        <outlet property="progressView" destination="IJa-g7-Ng7" id="ZbX-3a-MUq"/>
+                        <outlet property="urlTextField" destination="5gU-k9-frH" id="czq-f4-851"/>
+                        <outlet property="webView" destination="fbj-cw-g8f" id="qKK-Ed-okj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7c3-mi-3Pd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="-882"/>
+        </scene>
+        <!--Web View View Controller-->
+        <scene sceneID="t63-kS-LbN">
+            <objects>
+                <viewController id="K3c-4K-gyY" customClass="UIWebView_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0VG-RF-DBK"/>
+                        <viewControllerLayoutGuide type="bottom" id="pta-vC-D8S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RNo-XF-ddJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sVV-a1-jO8">
+                                <rect key="frame" x="40" y="84" width="520" height="29"/>
+                                <segments>
+                                    <segment title="显示HTML"/>
+                                    <segment title="显示PDF"/>
+                                    <segment title="loadData显示PDF"/>
+                                </segments>
+                                <connections>
+                                    <action selector="typeChanged:" destination="K3c-4K-gyY" eventType="valueChanged" id="QCx-Gw-hRM"/>
+                                </connections>
+                            </segmentedControl>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FZy-h3-kdh">
+                                <rect key="frame" x="0.0" y="132" width="600" height="468"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pta-vC-D8S" firstAttribute="top" secondItem="FZy-h3-kdh" secondAttribute="bottom" id="CCZ-g0-Az7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sVV-a1-jO8" secondAttribute="trailing" constant="20" id="QFY-SC-j93"/>
+                            <constraint firstItem="sVV-a1-jO8" firstAttribute="centerX" secondItem="RNo-XF-ddJ" secondAttribute="centerX" id="QIu-28-w23"/>
+                            <constraint firstItem="FZy-h3-kdh" firstAttribute="top" secondItem="sVV-a1-jO8" secondAttribute="bottom" constant="20" id="azs-iS-lmd"/>
+                            <constraint firstItem="sVV-a1-jO8" firstAttribute="top" secondItem="0VG-RF-DBK" secondAttribute="bottom" constant="20" id="gKx-aH-gwR"/>
+                            <constraint firstItem="FZy-h3-kdh" firstAttribute="centerX" secondItem="RNo-XF-ddJ" secondAttribute="centerX" id="kiH-Qe-MDI"/>
+                            <constraint firstItem="FZy-h3-kdh" firstAttribute="width" secondItem="RNo-XF-ddJ" secondAttribute="width" id="mFm-JS-Zc8"/>
+                            <constraint firstItem="sVV-a1-jO8" firstAttribute="leading" secondItem="RNo-XF-ddJ" secondAttribute="leadingMargin" constant="20" id="nfJ-7C-LqO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="typeChange" destination="sVV-a1-jO8" id="I7t-lC-vOE"/>
+                        <outlet property="webView" destination="FZy-h3-kdh" id="fcw-OT-wCm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pzk-mk-tPJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="671" y="1094"/>
         </scene>
         <!--Gesture Recognizer View Controller-->
         <scene sceneID="dtV-o1-I67">
