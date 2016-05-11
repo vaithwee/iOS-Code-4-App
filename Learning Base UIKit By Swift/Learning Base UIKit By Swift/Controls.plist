@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>标签 UILabel</string>
+	<string>文本框  UITextField</string>
+	<string>按钮 UIButton</string>
+	<string>开关按钮 UISwitch</string>
+	<string>分段控件 UISegmentControl</string>
+	<string>图像 UIImageView</string>
+	<string>进度条 UIProgressView</string>
+	<string>滑动条 UISlider</string>
+	<string>警告框 UIAlertView</string>
+</array>
+</plist>
