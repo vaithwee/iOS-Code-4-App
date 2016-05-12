@@ -11,6 +11,12 @@
 		C506195C1CE435ED002F6EAE /* Objective-C-To-Swift-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506195B1CE435ED002F6EAE /* Objective-C-To-Swift-ViewController.swift */; };
 		C506195E1CE45436002F6EAE /* EventKit-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506195D1CE45436002F6EAE /* EventKit-ViewController.swift */; };
 		C50619601CE45833002F6EAE /* UIAlertController-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506195F1CE45833002F6EAE /* UIAlertController-ViewController.swift */; };
+		C50619621CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619611CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift */; };
+		C50619641CE46206002F6EAE /* FactoryClass-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619631CE46206002F6EAE /* FactoryClass-ViewController.swift */; };
+		C50619661CE462F0002F6EAE /* Animation-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619651CE462F0002F6EAE /* Animation-ViewController.swift */; };
+		C50619681CE466B9002F6EAE /* NSUserDefaults-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619671CE466B9002F6EAE /* NSUserDefaults-ViewController.swift */; };
+		C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */; };
+		C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */; };
 		C512AD7C1CE3335C00BE88C1 /* UIActivityView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */; };
 		C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */; };
 		C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */; };
@@ -46,6 +52,12 @@
 		C506195B1CE435ED002F6EAE /* Objective-C-To-Swift-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Objective-C-To-Swift-ViewController.swift"; sourceTree = "<group>"; };
 		C506195D1CE45436002F6EAE /* EventKit-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EventKit-ViewController.swift"; sourceTree = "<group>"; };
 		C506195F1CE45833002F6EAE /* UIAlertController-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController-ViewController.swift"; sourceTree = "<group>"; };
+		C50619611CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSJSONSerialization-ViewController.swift"; sourceTree = "<group>"; };
+		C50619631CE46206002F6EAE /* FactoryClass-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FactoryClass-ViewController.swift"; sourceTree = "<group>"; };
+		C50619651CE462F0002F6EAE /* Animation-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Animation-ViewController.swift"; sourceTree = "<group>"; };
+		C50619671CE466B9002F6EAE /* NSUserDefaults-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserDefaults-ViewController.swift"; sourceTree = "<group>"; };
+		C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL_ViewController.swift; sourceTree = "<group>"; };
+		C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITouch_ViewController.swift; sourceTree = "<group>"; };
 		C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityView-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView-ViewController.swift"; sourceTree = "<group>"; };
@@ -139,6 +151,12 @@
 				C506195B1CE435ED002F6EAE /* Objective-C-To-Swift-ViewController.swift */,
 				C506195D1CE45436002F6EAE /* EventKit-ViewController.swift */,
 				C506195F1CE45833002F6EAE /* UIAlertController-ViewController.swift */,
+				C50619611CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift */,
+				C50619631CE46206002F6EAE /* FactoryClass-ViewController.swift */,
+				C50619651CE462F0002F6EAE /* Animation-ViewController.swift */,
+				C50619671CE466B9002F6EAE /* NSUserDefaults-ViewController.swift */,
+				C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */,
+				C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -225,19 +243,25 @@
 				C54F1EC91CE32BBC00E84AAE /* UITabBar-ViewController.swift in Sources */,
 				C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */,
 				C506195E1CE45436002F6EAE /* EventKit-ViewController.swift in Sources */,
+				C50619681CE466B9002F6EAE /* NSUserDefaults-ViewController.swift in Sources */,
 				C5A8EF941CE3174600D6C02D /* UISearchDisplayController-ViewController.swift in Sources */,
+				C50619661CE462F0002F6EAE /* Animation-ViewController.swift in Sources */,
 				CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */,
 				C536C0DD1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift in Sources */,
 				C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */,
 				CCC9BCCB1CDDBE30004E549E /* UIAlertView-ViewController.swift in Sources */,
+				C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */,
 				CCC9BCD11CDDC692004E549E /* UIActionSheet-ViewController.swift in Sources */,
 				C5A8EF901CE30C4E00D6C02D /* UITableView-ViewController.swift in Sources */,
 				C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */,
 				C506195A1CE4356C002F6EAE /* OCView.m in Sources */,
 				C54F1ECB1CE32E0300E84AAE /* UIPageControl-ViewController.swift in Sources */,
+				C50619621CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift in Sources */,
 				CCC9BCD31CDDC7CD004E549E /* UIPickerView-ViewController.swift in Sources */,
+				C50619641CE46206002F6EAE /* FactoryClass-ViewController.swift in Sources */,
 				C54F1EC71CE3225C00E84AAE /* UICollectionViewSimple-CollectionViewController.swift in Sources */,
 				C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */,
+				C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */,
 				C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */,
 				CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */,
 				C549D2621CE1C2EF00BC7A5E /* Browser-ViewController.swift in Sources */,
