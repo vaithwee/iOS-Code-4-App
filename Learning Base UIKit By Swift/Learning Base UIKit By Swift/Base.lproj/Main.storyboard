@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -104,6 +104,8 @@
                         <segue destination="sij-MO-M9O" kind="show" identifier="NSUserDefaults" id="SoT-hN-PQs"/>
                         <segue destination="4fd-Rw-SGV" kind="show" identifier="NSURL" id="q4Q-Qg-xV4"/>
                         <segue destination="7Lj-3f-y2z" kind="show" identifier="UITouch" id="D2m-F4-tkT"/>
+                        <segue destination="0j7-QZ-C8t" kind="show" identifier="UIActivityIndicatorView" id="a6P-Q2-XZH"/>
+                        <segue destination="yVX-WW-zl8" kind="show" identifier="UINavigationBar" id="JMu-yi-zOn"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNA-6o-4Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -196,7 +198,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oim-WW-B03">
                                             <rect key="frame" x="0.0" y="147" width="100" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -676,7 +678,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7J-m8-zJa">
                                 <rect key="frame" x="279" y="290" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -765,6 +767,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BgW-3p-H0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="754" y="1187"/>
+        </scene>
+        <!--Activity Indicator View View Controller-->
+        <scene sceneID="ePJ-z3-wlC">
+            <objects>
+                <viewController id="0j7-QZ-C8t" customClass="UIActivityIndicatorView_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HAK-tG-1rg"/>
+                        <viewControllerLayoutGuide type="bottom" id="qw5-0B-a7A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SWB-7D-xjr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C9f-X0-S4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749" y="1582"/>
         </scene>
         <!--Touch View Controller-->
         <scene sceneID="I9M-QC-vQr">
@@ -858,6 +878,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fte-0V-guA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="754" y="1389"/>
+        </scene>
+        <!--Navigation Bar View Controller-->
+        <scene sceneID="Pv8-Lz-xQD">
+            <objects>
+                <viewController id="yVX-WW-zl8" customClass="UINavigationBar_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gcj-v7-GZ9"/>
+                        <viewControllerLayoutGuide type="bottom" id="reJ-N5-LMk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yvy-Aj-DjB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nD4-0S-YdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="362" y="1329"/>
         </scene>
         <!--Animation View Controller-->
         <scene sceneID="oiy-Ra-zeu">
