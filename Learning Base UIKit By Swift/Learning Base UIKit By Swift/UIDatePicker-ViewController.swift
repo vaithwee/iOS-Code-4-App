@@ -15,7 +15,7 @@ class UIDatePicker_ViewController: UIViewController {
         super.viewDidLoad()
 
         dataPicker.locale = NSLocale(localeIdentifier: "zh_CN");//修改问中文
-        dataPicker.addTarget(self, action: Selector("dateValueChanged"), forControlEvents: .ValueChanged);
+        dataPicker.addTarget(self, action: #selector(UIDatePicker_ViewController.dateValueChanged), forControlEvents: .ValueChanged);
         // Do any additional setup after loading the view.
     }
     

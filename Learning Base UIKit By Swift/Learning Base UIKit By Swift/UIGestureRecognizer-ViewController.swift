@@ -15,18 +15,18 @@ class UIGestureRecognizer_ViewController: UIViewController {
         super.viewDidLoad()
 
         //滑动
-        let swipe = UISwipeGestureRecognizer(target: self, action: Selector("swipe:"));
+        let swipe = UISwipeGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.swipe(_:)));
         swipe.direction = .Up;
         self.view.addGestureRecognizer(swipe);
         
         //单击
-        let tap = UITapGestureRecognizer(target: self, action: Selector("tap:"));
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.tap(_:)));
         tap.numberOfTapsRequired = 1;
         tap.numberOfTouchesRequired = 1;
         
         
         //双击
-        let doubleTap = UITapGestureRecognizer(target: self, action: Selector("doubleTap:"));
+        let doubleTap = UITapGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.doubleTap(_:)));
         doubleTap.numberOfTouchesRequired = 1;
         doubleTap.numberOfTapsRequired = 2;
         
@@ -35,11 +35,11 @@ class UIGestureRecognizer_ViewController: UIViewController {
         self.view.addGestureRecognizer(doubleTap);
         
         //捏合手势
-        let pinch = UIPinchGestureRecognizer(target: self, action: Selector("pinch:"));
+        let pinch = UIPinchGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.pinch(_:)));
         self.view.addGestureRecognizer(pinch);
         
         //旋转手势
-        let rotation = UIRotationGestureRecognizer(target: self, action: Selector("rotation:"));
+        let rotation = UIRotationGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.rotation(_:)));
         self.view.addGestureRecognizer(rotation);
     
         //拖动
@@ -48,10 +48,10 @@ class UIGestureRecognizer_ViewController: UIViewController {
         rect.backgroundColor = UIColor.redColor();
         self.view.addSubview(rect);
         
-        let pan = UIPanGestureRecognizer(target: self, action: Selector("pan:"));
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.pan(_:)));
         rect.addGestureRecognizer(pan);
         
-        let longPress = UILongPressGestureRecognizer(target: self, action: Selector("longPress:"));
+        let longPress = UILongPressGestureRecognizer(target: self, action: #selector(UIGestureRecognizer_ViewController.longPress(_:)));
         tap.requireGestureRecognizerToFail(longPress);
         self.view.addGestureRecognizer(longPress);
         

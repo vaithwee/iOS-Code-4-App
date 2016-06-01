@@ -37,8 +37,6 @@ class DeviceDirection_ViewController: UIViewController {
             label.text = "设备平放，Home键朝下"
         case .Unknown:
             label.text = "方向未知"
-        default:
-            label.text = "方向未知"
         }
     }
 

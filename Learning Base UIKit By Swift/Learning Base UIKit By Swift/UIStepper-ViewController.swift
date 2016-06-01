@@ -28,7 +28,7 @@ class UIStepper_ViewController: UIViewController {
         
         //stepper.tintColor = UIColor.redColor();//更改颜色
         
-        stepper.addTarget(self, action: Selector("stepperValueChange"), forControlEvents: .ValueChanged);
+        stepper.addTarget(self, action: #selector(UIStepper_ViewController.stepperValueChange), forControlEvents: .ValueChanged);
         self.view.addSubview(stepper);
         
         //设置图片

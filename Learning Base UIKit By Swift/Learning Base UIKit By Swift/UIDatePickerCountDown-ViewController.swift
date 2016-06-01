@@ -27,7 +27,7 @@ class UIDatePickerCountDown_ViewController: UIViewController {
           self.cTimer.countDownDuration = NSTimeInterval(self.leftTime);
         }
         
-        cTimer.addTarget(self, action: Selector("timerChanged"), forControlEvents: .ValueChanged);
+        cTimer.addTarget(self, action: #selector(UIDatePickerCountDown_ViewController.timerChanged), forControlEvents: .ValueChanged);
         self.view.addSubview(cTimer);
         
         btnStart = UIButton(type: .System);
@@ -36,7 +36,7 @@ class UIDatePickerCountDown_ViewController: UIViewController {
         btnStart.setTitleColor(UIColor.greenColor(), forState: .Disabled);
         btnStart.setTitle("开始", forState: .Normal);
         btnStart.setTitle("倒计时中", forState: .Disabled);
-        btnStart.addTarget(self, action: Selector("startClick"), forControlEvents: .TouchUpInside);
+        btnStart.addTarget(self, action: #selector(UIDatePickerCountDown_ViewController.startClick), forControlEvents: .TouchUpInside);
         self.view.addSubview(btnStart);
     }
     
@@ -58,7 +58,7 @@ class UIDatePickerCountDown_ViewController: UIViewController {
         alertView.addButtonWithTitle("确定");
         alertView.show();
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(NSTimeInterval(1), target: self, selector: Selector("updateTime"), userInfo: nil, repeats: true);
+        timer = NSTimer.scheduledTimerWithTimeInterval(NSTimeInterval(1), target: self, selector: #selector(UIDatePickerCountDown_ViewController.updateTime), userInfo: nil, repeats: true);
         //NSRunLoop.mainRunLoop().addTimer(timer, forMode: NSDefaultRunLoopMode);
     }
     

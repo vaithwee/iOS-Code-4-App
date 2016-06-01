@@ -19,10 +19,10 @@ class UINavigationBar_ViewController: UIViewController {
         
         navigationBar = self.navigationController?.navigationBar;
         
-        let leftBtn = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "add");
+        let leftBtn = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: Selector("add"));
         self.navigationItem.setLeftBarButtonItem(leftBtn, animated: true);
         
-        let right = UIBarButtonItem(barButtonSystemItem: .Cancel, target: self, action: "cancel");
+        let right = UIBarButtonItem(barButtonSystemItem: .Cancel, target: self, action: #selector(NSProgress.cancel));
         self.navigationItem.rightBarButtonItem = right;
         
     }

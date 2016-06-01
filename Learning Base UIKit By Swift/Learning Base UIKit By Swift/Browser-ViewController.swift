@@ -30,7 +30,7 @@ class Browser_ViewController: UIViewController, UIWebViewDelegate, UITextFieldDe
         loadIndicator.activityIndicatorViewStyle = .Gray;
         self.view.addSubview(loadIndicator);
         
-        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: Selector("updateProgress"), userInfo: nil, repeats: true);
+        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.2, target: self, selector: #selector(Browser_ViewController.updateProgress), userInfo: nil, repeats: true);
         NSRunLoop.mainRunLoop().addTimer(self.timer, forMode: NSDefaultRunLoopMode);
         self.timer.invalidate();
     
