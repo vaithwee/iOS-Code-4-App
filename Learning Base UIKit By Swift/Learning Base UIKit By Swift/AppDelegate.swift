@@ -16,9 +16,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let settings = UIUserNotificationSettings(forTypes: [.Alert,.Badge,.Sound], categories: nil);
+        application.registerUserNotificationSettings(settings);
+        
         return true
     }
 
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0;
+        let info = notification.userInfo as! [String:Int];
+        let number = info["ItemId"];
+        let alert = UIAlertController(title: "本地通知", message: "消息内容：\(notification.alertBody!)用户数据：\(number!)", preferredStyle: .Alert);
+        let cancel = UIAlertAction(title: "确定", style: .Cancel, handler: nil);
+        alert.addAction(cancel);
+        
+        self.window?.rootViewController!.presentViewController(alert, animated: true, completion: nil);
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

@@ -18,6 +18,15 @@
 		C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */; };
 		C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */; };
 		C512AD7C1CE3335C00BE88C1 /* UIActivityView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */; };
+		C52AF8101CFC192C0077E9A9 /* XIb-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF80F1CFC192C0077E9A9 /* XIb-ViewController.swift */; };
+		C52AF8131CFC1A630077E9A9 /* XibDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF8111CFC1A630077E9A9 /* XibDetailViewController.swift */; };
+		C52AF8141CFC1A630077E9A9 /* XibDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52AF8121CFC1A630077E9A9 /* XibDetailViewController.xib */; };
+		C52AF8161CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF8151CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift */; };
+		C52AF8181CFC1CCA0077E9A9 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF8171CFC1CCA0077E9A9 /* HttpController.swift */; };
+		C52AF81A1CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF8191CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift */; };
+		C52AF81C1CFC23370077E9A9 /* MediaPlayer-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF81B1CFC23370077E9A9 /* MediaPlayer-ViewController.swift */; };
+		C52AF81E1CFC34500077E9A9 /* StaticCells-TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF81D1CFC34500077E9A9 /* StaticCells-TableViewController.swift */; };
+		C52AF8201CFC38490077E9A9 /* UILocalNotification-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF81F1CFC38490077E9A9 /* UILocalNotification-ViewController.swift */; };
 		C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */; };
 		C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */; };
 		C536C0DD1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C0DC1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift */; };
@@ -37,6 +46,11 @@
 		C5A8EF901CE30C4E00D6C02D /* UITableView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8EF8F1CE30C4E00D6C02D /* UITableView-ViewController.swift */; };
 		C5A8EF921CE3116400D6C02D /* UISearchBar-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8EF911CE3116400D6C02D /* UISearchBar-ViewController.swift */; };
 		C5A8EF941CE3174600D6C02D /* UISearchDisplayController-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A8EF931CE3174600D6C02D /* UISearchDisplayController-ViewController.swift */; };
+		C5D806931CFEC233008219F5 /* TableViewEdit-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D806921CFEC233008219F5 /* TableViewEdit-ViewController.swift */; };
+		C5E697291CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E697281CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift */; };
+		C5E6972B1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E6972A1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift */; };
+		C5E6972D1CFED1E900BE39E5 /* NSURLSession-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E6972C1CFED1E900BE39E5 /* NSURLSession-ViewController.swift */; };
+		C5E6972F1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E6972E1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift */; };
 		CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */; };
 		CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC9BCBA1CDDBD05004E549E /* ViewController.swift */; };
 		CCC9BCBE1CDDBD05004E549E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC9BCBC1CDDBD05004E549E /* Main.storyboard */; };
@@ -61,6 +75,15 @@
 		C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL_ViewController.swift; sourceTree = "<group>"; };
 		C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITouch_ViewController.swift; sourceTree = "<group>"; };
 		C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityView-ViewController.swift"; sourceTree = "<group>"; };
+		C52AF80F1CFC192C0077E9A9 /* XIb-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XIb-ViewController.swift"; sourceTree = "<group>"; };
+		C52AF8111CFC1A630077E9A9 /* XibDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibDetailViewController.swift; sourceTree = "<group>"; };
+		C52AF8121CFC1A630077E9A9 /* XibDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibDetailViewController.xib; sourceTree = "<group>"; };
+		C52AF8151CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLConnectionAsyn-ViewController.swift"; sourceTree = "<group>"; };
+		C52AF8171CFC1CCA0077E9A9 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		C52AF8191CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WillDisplayCell-TableViewController.swift"; sourceTree = "<group>"; };
+		C52AF81B1CFC23370077E9A9 /* MediaPlayer-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MediaPlayer-ViewController.swift"; sourceTree = "<group>"; };
+		C52AF81D1CFC34500077E9A9 /* StaticCells-TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StaticCells-TableViewController.swift"; sourceTree = "<group>"; };
+		C52AF81F1CFC38490077E9A9 /* UILocalNotification-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILocalNotification-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0D81CE03088002AFE83 /* UIStepper-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStepper-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0DA1CE0369F002AFE83 /* UIScrollView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView-ViewController.swift"; sourceTree = "<group>"; };
 		C536C0DC1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollViewPage-ViewController.swift"; sourceTree = "<group>"; };
@@ -80,6 +103,11 @@
 		C5A8EF8F1CE30C4E00D6C02D /* UITableView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView-ViewController.swift"; sourceTree = "<group>"; };
 		C5A8EF911CE3116400D6C02D /* UISearchBar-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar-ViewController.swift"; sourceTree = "<group>"; };
 		C5A8EF931CE3174600D6C02D /* UISearchDisplayController-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchDisplayController-ViewController.swift"; sourceTree = "<group>"; };
+		C5D806921CFEC233008219F5 /* TableViewEdit-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewEdit-ViewController.swift"; sourceTree = "<group>"; };
+		C5E697281CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderAndFooterView_ViewController.swift; sourceTree = "<group>"; };
+		C5E6972A1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController-ViewController.swift"; sourceTree = "<group>"; };
+		C5E6972C1CFED1E900BE39E5 /* NSURLSession-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLSession-ViewController.swift"; sourceTree = "<group>"; };
+		C5E6972E1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceDirection-ViewController.swift"; sourceTree = "<group>"; };
 		CCC9BCB51CDDBD05004E549E /* Learning Base UIKit By Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learning Base UIKit By Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC9BCB81CDDBD05004E549E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC9BCBA1CDDBD05004E549E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +191,20 @@
 				C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */,
 				C5A2088C1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift */,
 				C5A2088E1CF83213009B55DE /* UINavigationBar-ViewController.swift */,
+				C52AF80F1CFC192C0077E9A9 /* XIb-ViewController.swift */,
+				C52AF8111CFC1A630077E9A9 /* XibDetailViewController.swift */,
+				C52AF8121CFC1A630077E9A9 /* XibDetailViewController.xib */,
+				C52AF8151CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift */,
+				C52AF8171CFC1CCA0077E9A9 /* HttpController.swift */,
+				C52AF8191CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift */,
+				C52AF81B1CFC23370077E9A9 /* MediaPlayer-ViewController.swift */,
+				C52AF81D1CFC34500077E9A9 /* StaticCells-TableViewController.swift */,
+				C52AF81F1CFC38490077E9A9 /* UILocalNotification-ViewController.swift */,
+				C5D806921CFEC233008219F5 /* TableViewEdit-ViewController.swift */,
+				C5E697281CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift */,
+				C5E6972A1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift */,
+				C5E6972C1CFED1E900BE39E5 /* NSURLSession-ViewController.swift */,
+				C5E6972E1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -229,6 +271,7 @@
 				C549D2601CE1C08400BC7A5E /* test.pdf in Resources */,
 				CCC9BCC31CDDBD05004E549E /* LaunchScreen.storyboard in Resources */,
 				C5A8EF8E1CE30C2600D6C02D /* Controls.plist in Resources */,
+				C52AF8141CFC1A630077E9A9 /* XibDetailViewController.xib in Resources */,
 				CCC9BCC01CDDBD05004E549E /* Assets.xcassets in Resources */,
 				CCC9BCBE1CDDBD05004E549E /* Main.storyboard in Resources */,
 			);
@@ -245,34 +288,47 @@
 				C549D25E1CE1BB3800BC7A5E /* UIWebView-ViewController.swift in Sources */,
 				C50619601CE45833002F6EAE /* UIAlertController-ViewController.swift in Sources */,
 				C512AD7C1CE3335C00BE88C1 /* UIActivityView-ViewController.swift in Sources */,
+				C5E6972D1CFED1E900BE39E5 /* NSURLSession-ViewController.swift in Sources */,
 				C536C0E51CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift in Sources */,
 				C54F1EC91CE32BBC00E84AAE /* UITabBar-ViewController.swift in Sources */,
+				C5E6972B1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift in Sources */,
+				C5E6972F1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift in Sources */,
+				C52AF8161CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift in Sources */,
 				C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */,
 				C5A2088F1CF83213009B55DE /* UINavigationBar-ViewController.swift in Sources */,
+				C52AF8181CFC1CCA0077E9A9 /* HttpController.swift in Sources */,
 				C506195E1CE45436002F6EAE /* EventKit-ViewController.swift in Sources */,
 				C50619681CE466B9002F6EAE /* NSUserDefaults-ViewController.swift in Sources */,
+				C5D806931CFEC233008219F5 /* TableViewEdit-ViewController.swift in Sources */,
 				C5A8EF941CE3174600D6C02D /* UISearchDisplayController-ViewController.swift in Sources */,
 				C50619661CE462F0002F6EAE /* Animation-ViewController.swift in Sources */,
+				C52AF81C1CFC23370077E9A9 /* MediaPlayer-ViewController.swift in Sources */,
+				C52AF81E1CFC34500077E9A9 /* StaticCells-TableViewController.swift in Sources */,
 				CCC9BCBB1CDDBD05004E549E /* ViewController.swift in Sources */,
 				C536C0DD1CE03A08002AFE83 /* UIScrollViewPage-ViewController.swift in Sources */,
 				C536C0DB1CE0369F002AFE83 /* UIScrollView-ViewController.swift in Sources */,
 				CCC9BCCB1CDDBE30004E549E /* UIAlertView-ViewController.swift in Sources */,
 				C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */,
 				CCC9BCD11CDDC692004E549E /* UIActionSheet-ViewController.swift in Sources */,
+				C5E697291CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift in Sources */,
 				C5A8EF901CE30C4E00D6C02D /* UITableView-ViewController.swift in Sources */,
 				C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */,
 				C506195A1CE4356C002F6EAE /* OCView.m in Sources */,
 				C54F1ECB1CE32E0300E84AAE /* UIPageControl-ViewController.swift in Sources */,
 				C50619621CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift in Sources */,
 				C5A2088D1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift in Sources */,
+				C52AF81A1CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift in Sources */,
 				CCC9BCD31CDDC7CD004E549E /* UIPickerView-ViewController.swift in Sources */,
+				C52AF8201CFC38490077E9A9 /* UILocalNotification-ViewController.swift in Sources */,
 				C50619641CE46206002F6EAE /* FactoryClass-ViewController.swift in Sources */,
 				C54F1EC71CE3225C00E84AAE /* UICollectionViewSimple-CollectionViewController.swift in Sources */,
 				C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */,
 				C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */,
+				C52AF8131CFC1A630077E9A9 /* XibDetailViewController.swift in Sources */,
 				C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */,
 				CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */,
 				C549D2621CE1C2EF00BC7A5E /* Browser-ViewController.swift in Sources */,
+				C52AF8101CFC192C0077E9A9 /* XIb-ViewController.swift in Sources */,
 				C506195C1CE435ED002F6EAE /* Objective-C-To-Swift-ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
