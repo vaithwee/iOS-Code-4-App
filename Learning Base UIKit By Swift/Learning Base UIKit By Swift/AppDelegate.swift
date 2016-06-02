@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let settings = UIUserNotificationSettings(forTypes: [.Alert,.Badge,.Sound], categories: nil);
         application.registerUserNotificationSettings(settings);
-        
+        print("hello".MD5)
         return true
     }
 

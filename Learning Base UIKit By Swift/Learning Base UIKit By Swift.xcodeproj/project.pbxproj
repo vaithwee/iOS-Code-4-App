@@ -18,6 +18,16 @@
 		C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */; };
 		C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */; };
 		C512AD7C1CE3335C00BE88C1 /* UIActivityView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */; };
+		C51BD0571CFFD3280017245C /* MapKit-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0561CFFD3280017245C /* MapKit-ViewController.swift */; };
+		C51BD0591CFFD53F0017245C /* AddressBookUI-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0581CFFD53F0017245C /* AddressBookUI-ViewController.swift */; };
+		C51BD0B91CFFE4F40017245C /* MessageUI-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0B81CFFE4F40017245C /* MessageUI-ViewController.swift */; };
+		C51BD0BB1D0002D00017245C /* UISearchController-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0BA1D0002D00017245C /* UISearchController-ViewController.swift */; };
+		C51BD0BD1D000A170017245C /* CGBlendMode-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0BC1D000A170017245C /* CGBlendMode-ViewController.swift */; };
+		C51BD0BF1D000AAE0017245C /* UIImage+CGBlendMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0BE1D000AAE0017245C /* UIImage+CGBlendMode.swift */; };
+		C51BD0C11D000E310017245C /* RGBColor-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0C01D000E310017245C /* RGBColor-ViewController.swift */; };
+		C51BD0C31D000E910017245C /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0C21D000E910017245C /* UIColor+RGB.swift */; };
+		C51BD0C71D00120F0017245C /* GCDSemaphore-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0C61D00120F0017245C /* GCDSemaphore-ViewController.swift */; };
+		C51BD0C91D0014CA0017245C /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51BD0C81D0014CA0017245C /* String+MD5.swift */; };
 		C52AF8101CFC192C0077E9A9 /* XIb-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF80F1CFC192C0077E9A9 /* XIb-ViewController.swift */; };
 		C52AF8131CFC1A630077E9A9 /* XibDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C52AF8111CFC1A630077E9A9 /* XibDetailViewController.swift */; };
 		C52AF8141CFC1A630077E9A9 /* XibDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52AF8121CFC1A630077E9A9 /* XibDetailViewController.xib */; };
@@ -77,6 +87,16 @@
 		C50619691CE4675E002F6EAE /* NSURL_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL_ViewController.swift; sourceTree = "<group>"; };
 		C506196B1CE47269002F6EAE /* UITouch_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITouch_ViewController.swift; sourceTree = "<group>"; };
 		C512AD7B1CE3335C00BE88C1 /* UIActivityView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityView-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0561CFFD3280017245C /* MapKit-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapKit-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0581CFFD53F0017245C /* AddressBookUI-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AddressBookUI-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0B81CFFE4F40017245C /* MessageUI-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MessageUI-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0BA1D0002D00017245C /* UISearchController-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchController-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0BC1D000A170017245C /* CGBlendMode-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGBlendMode-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0BE1D000AAE0017245C /* UIImage+CGBlendMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CGBlendMode.swift"; sourceTree = "<group>"; };
+		C51BD0C01D000E310017245C /* RGBColor-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RGBColor-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0C21D000E910017245C /* UIColor+RGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
+		C51BD0C61D00120F0017245C /* GCDSemaphore-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GCDSemaphore-ViewController.swift"; sourceTree = "<group>"; };
+		C51BD0C81D0014CA0017245C /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
 		C52AF80F1CFC192C0077E9A9 /* XIb-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XIb-ViewController.swift"; sourceTree = "<group>"; };
 		C52AF8111CFC1A630077E9A9 /* XibDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibDetailViewController.swift; sourceTree = "<group>"; };
 		C52AF8121CFC1A630077E9A9 /* XibDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibDetailViewController.xib; sourceTree = "<group>"; };
@@ -211,6 +231,16 @@
 				C5E6972E1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift */,
 				CC08088C1CFF314B00792179 /* Shake-ViewController.swift */,
 				CC08088E1CFF39A800792179 /* CoreLocation-ViewController.swift */,
+				C51BD0561CFFD3280017245C /* MapKit-ViewController.swift */,
+				C51BD0581CFFD53F0017245C /* AddressBookUI-ViewController.swift */,
+				C51BD0B81CFFE4F40017245C /* MessageUI-ViewController.swift */,
+				C51BD0BA1D0002D00017245C /* UISearchController-ViewController.swift */,
+				C51BD0BC1D000A170017245C /* CGBlendMode-ViewController.swift */,
+				C51BD0BE1D000AAE0017245C /* UIImage+CGBlendMode.swift */,
+				C51BD0C01D000E310017245C /* RGBColor-ViewController.swift */,
+				C51BD0C21D000E910017245C /* UIColor+RGB.swift */,
+				C51BD0C61D00120F0017245C /* GCDSemaphore-ViewController.swift */,
+				C51BD0C81D0014CA0017245C /* String+MD5.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -247,7 +277,7 @@
 				TargetAttributes = {
 					CCC9BCB41CDDBD05004E549E = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 75NY53J2SN;
+						DevelopmentTeam = F4M85U523D;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -304,16 +334,23 @@
 				C512AD7C1CE3335C00BE88C1 /* UIActivityView-ViewController.swift in Sources */,
 				C5E6972D1CFED1E900BE39E5 /* NSURLSession-ViewController.swift in Sources */,
 				C536C0E51CE08E0B002AFE83 /* UIDatePickerCountDown-ViewController.swift in Sources */,
+				C51BD0B91CFFE4F40017245C /* MessageUI-ViewController.swift in Sources */,
 				C54F1EC91CE32BBC00E84AAE /* UITabBar-ViewController.swift in Sources */,
 				C5E6972B1CFECD0E00BE39E5 /* UIImagePickerController-ViewController.swift in Sources */,
+				C51BD0C11D000E310017245C /* RGBColor-ViewController.swift in Sources */,
 				C5E6972F1CFEE0ED00BE39E5 /* DeviceDirection-ViewController.swift in Sources */,
 				C52AF8161CFC1C430077E9A9 /* NSURLConnectionAsyn-ViewController.swift in Sources */,
 				C536C0E11CE06991002AFE83 /* UIGestureRecognizer-ViewController.swift in Sources */,
 				C5A2088F1CF83213009B55DE /* UINavigationBar-ViewController.swift in Sources */,
 				C52AF8181CFC1CCA0077E9A9 /* HttpController.swift in Sources */,
+				C51BD0C31D000E910017245C /* UIColor+RGB.swift in Sources */,
+				C51BD0BF1D000AAE0017245C /* UIImage+CGBlendMode.swift in Sources */,
 				C506195E1CE45436002F6EAE /* EventKit-ViewController.swift in Sources */,
 				C50619681CE466B9002F6EAE /* NSUserDefaults-ViewController.swift in Sources */,
+				C51BD0C91D0014CA0017245C /* String+MD5.swift in Sources */,
 				C5D806931CFEC233008219F5 /* TableViewEdit-ViewController.swift in Sources */,
+				C51BD0591CFFD53F0017245C /* AddressBookUI-ViewController.swift in Sources */,
+				C51BD0BB1D0002D00017245C /* UISearchController-ViewController.swift in Sources */,
 				C5A8EF941CE3174600D6C02D /* UISearchDisplayController-ViewController.swift in Sources */,
 				C50619661CE462F0002F6EAE /* Animation-ViewController.swift in Sources */,
 				C52AF81C1CFC23370077E9A9 /* MediaPlayer-ViewController.swift in Sources */,
@@ -327,12 +364,14 @@
 				C5E697291CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift in Sources */,
 				C5A8EF901CE30C4E00D6C02D /* UITableView-ViewController.swift in Sources */,
 				C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */,
+				C51BD0BD1D000A170017245C /* CGBlendMode-ViewController.swift in Sources */,
 				C506195A1CE4356C002F6EAE /* OCView.m in Sources */,
 				CC08088F1CFF39A800792179 /* CoreLocation-ViewController.swift in Sources */,
 				C54F1ECB1CE32E0300E84AAE /* UIPageControl-ViewController.swift in Sources */,
 				C50619621CE45EF0002F6EAE /* NSJSONSerialization-ViewController.swift in Sources */,
 				C5A2088D1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift in Sources */,
 				CC08088D1CFF314B00792179 /* Shake-ViewController.swift in Sources */,
+				C51BD0C71D00120F0017245C /* GCDSemaphore-ViewController.swift in Sources */,
 				C52AF81A1CFC21710077E9A9 /* WillDisplayCell-TableViewController.swift in Sources */,
 				CCC9BCD31CDDC7CD004E549E /* UIPickerView-ViewController.swift in Sources */,
 				C52AF8201CFC38490077E9A9 /* UILocalNotification-ViewController.swift in Sources */,
@@ -341,6 +380,7 @@
 				C536C0D91CE03088002AFE83 /* UIStepper-ViewController.swift in Sources */,
 				C506196A1CE4675E002F6EAE /* NSURL_ViewController.swift in Sources */,
 				C52AF8131CFC1A630077E9A9 /* XibDetailViewController.swift in Sources */,
+				C51BD0571CFFD3280017245C /* MapKit-ViewController.swift in Sources */,
 				C536C0DF1CE0428E002AFE83 /* CoreMotion-ViewController.swift in Sources */,
 				CCC9BCB91CDDBD05004E549E /* AppDelegate.swift in Sources */,
 				C549D2621CE1C2EF00BC7A5E /* Browser-ViewController.swift in Sources */,
@@ -465,7 +505,7 @@
 				INFOPLIST_FILE = "Learning Base UIKit By Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenmestudio.Learning-Base-UIKit-By-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenmestudio.LearningBaseUIKitBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Learning Base UIKit By Swift/Learning Base UIKit By Swift-Bridging-Header.h";
@@ -484,7 +524,7 @@
 				INFOPLIST_FILE = "Learning Base UIKit By Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.shenmestudio.Learning-Base-UIKit-By-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenmestudio.LearningBaseUIKitBySwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Learning Base UIKit By Swift/Learning Base UIKit By Swift-Bridging-Header.h";

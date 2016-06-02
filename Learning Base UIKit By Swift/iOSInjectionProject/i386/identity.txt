@@ -1,0 +1,2 @@
+/Users/orangelife/Library/Developer/Xcode/DerivedData/Learning_Base_UIKit_By_Swift-bdcfadsilhwdwqcklvwdxlqrehhg/Build/Products/Debug-iphonesimulator/Learning Base UIKit By Swift.app
+iPhone Developer

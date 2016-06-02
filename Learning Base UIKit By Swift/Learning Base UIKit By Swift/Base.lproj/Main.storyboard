@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pVE-xI-YFy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -119,11 +119,90 @@
                         <segue destination="3Tt-e3-x0J" kind="show" identifier="DeviceDirection" id="VsF-dM-gPC"/>
                         <segue destination="Wca-yJ-uBR" kind="show" identifier="Shake" id="ijd-qV-5im"/>
                         <segue destination="Mrg-ma-SKm" kind="show" identifier="CoreLocation" id="cPs-D4-kR5"/>
+                        <segue destination="ZCo-5E-tXy" kind="show" identifier="MapKit" id="1Ym-3W-js7"/>
+                        <segue destination="fvv-4b-2Ra" kind="show" identifier="AddressBookUI" id="kKW-Xa-RHf"/>
+                        <segue destination="y5K-eH-dzc" kind="show" identifier="MessageUI" id="Osy-8T-x93"/>
+                        <segue destination="0zR-xZ-nVD" kind="show" identifier="UISearchController" id="JeJ-2a-bR4"/>
+                        <segue destination="tid-VV-9Dp" kind="show" identifier="CGBlendMode" id="TdK-5k-bE5"/>
+                        <segue destination="znS-hP-MMA" kind="show" identifier="RGBColor" id="l17-oY-7NL"/>
+                        <segue destination="I9B-Qn-e30" kind="show" identifier="GCDSemaphore" id="Ggg-m0-4IC"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNA-6o-4Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="47" y="-135"/>
+        </scene>
+        <!--Color View Controller-->
+        <scene sceneID="wBH-oN-jO0">
+            <objects>
+                <viewController id="znS-hP-MMA" customClass="RGBColor_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8m1-BY-luu"/>
+                        <viewControllerLayoutGuide type="bottom" id="yN1-88-ZaS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ibo-MS-lUs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOk-Tw-dOk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="570"/>
+        </scene>
+        <!--Semaphore View Controller-->
+        <scene sceneID="dg0-PJ-5oh">
+            <objects>
+                <viewController id="I9B-Qn-e30" customClass="GCDSemaphore_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3ea-fO-Gi3"/>
+                        <viewControllerLayoutGuide type="bottom" id="9bu-Jh-PaT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zLN-SK-9RD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJd-Mk-J6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-410" y="517"/>
+        </scene>
+        <!--Blend Mode View Controller-->
+        <scene sceneID="uGa-o7-WRw">
+            <objects>
+                <viewController id="tid-VV-9Dp" customClass="CGBlendMode_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2h9-oN-OGV"/>
+                        <viewControllerLayoutGuide type="bottom" id="GAo-eG-F2s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l2O-QE-Mxv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9JW-NA-Edd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="570"/>
+        </scene>
+        <!--Address BookUI View Controller-->
+        <scene sceneID="OCO-Dh-w96">
+            <objects>
+                <viewController id="fvv-4b-2Ra" customClass="AddressBookUI_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RTm-p3-dVu"/>
+                        <viewControllerLayoutGuide type="bottom" id="tvg-iR-NED"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PUX-K9-qiC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q5v-Ad-Rko" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="703"/>
         </scene>
         <!--Core Location View Controller-->
         <scene sceneID="8WC-zc-g01">
@@ -140,43 +219,43 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="经度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5c-rV-RJY">
                                 <rect key="frame" x="49" y="107" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="纬度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-Mh-cog">
                                 <rect key="frame" x="49" y="148" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海拔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d2d-Kj-7ei">
                                 <rect key="frame" x="49" y="189" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="垂直精度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaR-7Q-de6">
                                 <rect key="frame" x="49" y="230" width="68" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="水平精度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPC-U8-vHu">
                                 <rect key="frame" x="49" y="271" width="68" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="速度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxs-TC-Nk7">
                                 <rect key="frame" x="49" y="312" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="方向" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfi-a2-BIg">
                                 <rect key="frame" x="49" y="353" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -210,7 +289,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0XJ-DI-Hy0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89" y="188"/>
+            <point key="canvasLocation" x="47" y="737"/>
         </scene>
         <!--Will Display Cell Table View Controller-->
         <scene sceneID="c6N-qb-FiQ">
@@ -293,7 +372,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuJ-UU-Vqq">
                                 <rect key="frame" x="279" y="353" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -723,7 +802,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aG0-qa-qWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="107"/>
+            <point key="canvasLocation" x="54" y="776"/>
         </scene>
         <!--Alert View View Controller-->
         <scene sceneID="ZiB-Ct-DD8">
@@ -975,7 +1054,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我是自定义Lable1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLH-gA-dQ2">
                                                     <rect key="frame" x="41" y="12" width="135" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WpU-l9-xbQ">
@@ -1020,7 +1099,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这和是一个居中的label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEg-mg-8DA">
                                                     <rect key="frame" x="214" y="8" width="173" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -1089,7 +1168,74 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LuW-yB-Ubj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119" y="624"/>
+            <point key="canvasLocation" x="47" y="750"/>
+        </scene>
+        <!--Search Controller View Controller-->
+        <scene sceneID="u9T-Sv-N5Y">
+            <objects>
+                <viewController id="0zR-xZ-nVD" customClass="UISearchController_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UHa-iV-GRU"/>
+                        <viewControllerLayoutGuide type="bottom" id="xGA-sb-c8F"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ji3-q3-CBI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FP7-IE-2bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="768"/>
+        </scene>
+        <!--MessageUI View Controller-->
+        <scene sceneID="Fgr-rU-f6n">
+            <objects>
+                <viewController id="y5K-eH-dzc" customClass="MessageUI_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d5M-yz-dng"/>
+                        <viewControllerLayoutGuide type="bottom" id="4IW-qe-5b4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vR0-mK-psv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvI-0p-a6s">
+                                <rect key="frame" x="282" y="285" width="36" height="30"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendMessage:" destination="y5K-eH-dzc" eventType="touchUpInside" id="tFB-Z2-bRY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rvI-0p-a6s" firstAttribute="centerX" secondItem="vR0-mK-psv" secondAttribute="centerX" id="Dma-cw-x6t"/>
+                            <constraint firstItem="rvI-0p-a6s" firstAttribute="centerY" secondItem="vR0-mK-psv" secondAttribute="centerY" id="m45-8v-zeg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HqW-sT-ooe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47" y="610"/>
+        </scene>
+        <!--Map Kit View Controller-->
+        <scene sceneID="8xE-th-9GZ">
+            <objects>
+                <viewController id="ZCo-5E-tXy" customClass="MapKit_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FdQ-va-AxV"/>
+                        <viewControllerLayoutGuide type="bottom" id="wo7-75-BIw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fbf-7j-wQR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJz-tm-vzK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="60" y="750"/>
         </scene>
         <!--Device Direction View Controller-->
         <scene sceneID="jpY-sZ-Z4X">
@@ -1106,7 +1252,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogb-SE-5sk">
                                 <rect key="frame" x="279" y="290" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1167,7 +1313,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGi-q3-gUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="624"/>
+            <point key="canvasLocation" x="47" y="737"/>
         </scene>
         <!--Local Notification View Controller-->
         <scene sceneID="T0O-C7-SVH">
@@ -1198,7 +1344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7av-Ai-7zm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="624"/>
+            <point key="canvasLocation" x="60" y="750"/>
         </scene>
         <!--Table View Edit View Controller-->
         <scene sceneID="eTD-Ia-49s">
