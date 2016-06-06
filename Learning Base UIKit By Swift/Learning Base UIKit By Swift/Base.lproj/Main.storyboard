@@ -126,11 +126,46 @@
                         <segue destination="tid-VV-9Dp" kind="show" identifier="CGBlendMode" id="TdK-5k-bE5"/>
                         <segue destination="znS-hP-MMA" kind="show" identifier="RGBColor" id="l17-oY-7NL"/>
                         <segue destination="I9B-Qn-e30" kind="show" identifier="GCDSemaphore" id="Ggg-m0-4IC"/>
+                        <segue destination="mM0-q8-Nro" kind="show" identifier="QRCode" id="LZN-Xn-cv2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pNA-6o-4Nv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="47" y="-135"/>
+        </scene>
+        <!--Code View Controller-->
+        <scene sceneID="c2C-9m-Kym">
+            <objects>
+                <viewController id="mM0-q8-Nro" customClass="QRCode_ViewController" customModule="Learning_Base_UIKit_By_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0qU-hg-ncO"/>
+                        <viewControllerLayoutGuide type="bottom" id="y53-la-gnG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xtq-l5-mN9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Kdn-vm-UjU">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="35j-CD-uPY"/>
+                                    <constraint firstAttribute="height" constant="200" id="Vyq-C9-CQa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kdn-vm-UjU" firstAttribute="centerY" secondItem="Xtq-l5-mN9" secondAttribute="centerY" id="HU5-Ua-n55"/>
+                            <constraint firstItem="Kdn-vm-UjU" firstAttribute="centerX" secondItem="Xtq-l5-mN9" secondAttribute="centerX" id="bBf-my-avA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Kdn-vm-UjU" id="Hbe-R0-2CC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQ1-ca-In1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="-30"/>
         </scene>
         <!--Color View Controller-->
         <scene sceneID="wBH-oN-jO0">
