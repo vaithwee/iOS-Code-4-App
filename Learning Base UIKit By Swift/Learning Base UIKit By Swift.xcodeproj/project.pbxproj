@@ -50,6 +50,7 @@
 		C54F1EC71CE3225C00E84AAE /* UICollectionViewSimple-CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F1EC61CE3225C00E84AAE /* UICollectionViewSimple-CollectionViewController.swift */; };
 		C54F1EC91CE32BBC00E84AAE /* UITabBar-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F1EC81CE32BBC00E84AAE /* UITabBar-ViewController.swift */; };
 		C54F1ECB1CE32E0300E84AAE /* UIPageControl-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54F1ECA1CE32E0300E84AAE /* UIPageControl-ViewController.swift */; };
+		C55AD62F1D0671FC00D4B73B /* UIRefreshControl-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55AD62E1D0671FC00D4B73B /* UIRefreshControl-ViewController.swift */; };
 		C55D76251D05752400217AD3 /* QRCode-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D76241D05752400217AD3 /* QRCode-ViewController.swift */; };
 		C55D76271D0575E700217AD3 /* UIImage+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D76261D0575E700217AD3 /* UIImage+QRCode.swift */; };
 		C5A2088D1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A2088C1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift */; };
@@ -121,6 +122,7 @@
 		C54F1EC61CE3225C00E84AAE /* UICollectionViewSimple-CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewSimple-CollectionViewController.swift"; sourceTree = "<group>"; };
 		C54F1EC81CE32BBC00E84AAE /* UITabBar-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar-ViewController.swift"; sourceTree = "<group>"; };
 		C54F1ECA1CE32E0300E84AAE /* UIPageControl-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPageControl-ViewController.swift"; sourceTree = "<group>"; };
+		C55AD62E1D0671FC00D4B73B /* UIRefreshControl-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl-ViewController.swift"; sourceTree = "<group>"; };
 		C55D76241D05752400217AD3 /* QRCode-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QRCode-ViewController.swift"; sourceTree = "<group>"; };
 		C55D76261D0575E700217AD3 /* UIImage+QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+QRCode.swift"; sourceTree = "<group>"; };
 		C5A2088C1CF83048009B55DE /* UIActivityIndicatorView-ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView-ViewController.swift"; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				C51BD0C81D0014CA0017245C /* String+MD5.swift */,
 				C55D76241D05752400217AD3 /* QRCode-ViewController.swift */,
 				C55D76261D0575E700217AD3 /* UIImage+QRCode.swift */,
+				C55AD62E1D0671FC00D4B73B /* UIRefreshControl-ViewController.swift */,
 			);
 			path = "Learning Base UIKit By Swift";
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				C506196C1CE47269002F6EAE /* UITouch_ViewController.swift in Sources */,
 				CCC9BCD11CDDC692004E549E /* UIActionSheet-ViewController.swift in Sources */,
 				C5E697291CFEC68500BE39E5 /* TableHeaderAndFooterView_ViewController.swift in Sources */,
+				C55AD62F1D0671FC00D4B73B /* UIRefreshControl-ViewController.swift in Sources */,
 				C5A8EF901CE30C4E00D6C02D /* UITableView-ViewController.swift in Sources */,
 				C536C0E31CE07596002AFE83 /* UIDatePicker-ViewController.swift in Sources */,
 				C51BD0BD1D000A170017245C /* CGBlendMode-ViewController.swift in Sources */,
