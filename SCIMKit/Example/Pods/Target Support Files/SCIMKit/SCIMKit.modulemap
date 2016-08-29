@@ -1,0 +1,6 @@
+framework module SCIMKit {
+  umbrella header "SCIMKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

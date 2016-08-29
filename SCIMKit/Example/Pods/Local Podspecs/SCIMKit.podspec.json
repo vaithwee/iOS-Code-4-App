@@ -1,0 +1,37 @@
+{
+  "name": "SCIMKit",
+  "version": "0.1.0",
+  "summary": "A short description of SCIMKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SCIMKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Vaith": "vaithwee@yeah.net"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SCIMKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SCIMKit/Classes/**/*",
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "z",
+    "sqlite3",
+    "c++"
+  ],
+  "vendored_frameworks": [
+    "SCIMKit/Frameworks/IMCore.framework",
+    "SCIMKit/Frameworks/ImSDK.framework",
+    "SCIMKit/Frameworks/QALSDK.framework",
+    "SCIMKit/Frameworks/TLSSDK.framework"
+  ]
+}

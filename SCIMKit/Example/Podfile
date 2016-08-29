@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SCIMKit_Example' do
+  pod 'SCIMKit', :path => '../'
+
+  target 'SCIMKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

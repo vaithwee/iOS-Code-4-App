@@ -1,0 +1,16 @@
+PODS:
+  - SCIMKit (0.1.0)
+
+DEPENDENCIES:
+  - SCIMKit (from `../`)
+
+EXTERNAL SOURCES:
+  SCIMKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SCIMKit: 7926bbedb1396116e0ac0c16daf0a3124f6a5d27
+
+PODFILE CHECKSUM: 3e2cd6349bb3e5d0cce5efe7fa38e2dfa6df6093
+
+COCOAPODS: 1.0.1
